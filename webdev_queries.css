@@ -1,0 +1,196 @@
+/* font-size
+10/12/14/16/18/20/24/30/36/44/52/62/74/74/86/98
+*/
+
+/* spacing 
+2/4/8/12/16/24/32/48/64/80/96/128
+*/
+
+/* Small Desktop (Below 1344px)*/
+
+@media (max-width: 84em) {
+  html {
+    font-size: 56.25%;
+  }
+}
+
+/* Landscape Tablet (Below 1200px)*/
+
+@media (max-width: 75em) {
+  html {
+    font-size: 50%;
+  }
+}
+
+/* Tablet (Below 944px)*/
+
+@media (max-width: 59em) {
+  .navbar img {
+    width: 9.8rem;
+  }
+
+  .nav-content .navlink,
+  .nav-btn a:not(.btn-primary),
+  .navbar .nav-content .chevron-links svg {
+    display: none;
+  }
+
+  .container {
+    grid-template-columns: 1fr;
+  }
+
+  .metrics-heading,
+  .metrics-stats {
+    text-align: center;
+  }
+
+  .metrics-stats {
+    gap: 4.8rem;
+    width: 60%;
+    margin: auto;
+    margin-top: 6.4rem;
+  }
+
+  .metrics-text {
+    order: -1;
+  }
+
+  .metrics-img {
+    margin: auto;
+    width: 100%;
+  }
+
+  .mentors-card-container {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .facilities-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .footer-links {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .footer-logo {
+    margin: auto;
+    align-self: center;
+    text-align: center;
+  }
+
+  .footer-logo img {
+    margin-bottom: 1.2rem;
+  }
+
+  .footer-logo p {
+    margin: auto;
+    margin-bottom: 6.4rem;
+  }
+
+  .footer-nav {
+    justify-content: space-between;
+    width: 100%;
+  }
+}
+
+/* Small Tablet (Below 704px)*/
+
+@media (max-width: 48em) {
+  .metrics-stats {
+    gap: 4.8rem;
+    width: 100%;
+    margin: auto;
+    margin-top: 6.4rem;
+  }
+
+  .mentors-card-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .cta {
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+  }
+
+  .footer-container .buttons {
+    display: block;
+    width: 60%;
+  }
+
+  .btn-secondary {
+    margin-bottom: 1.8rem;
+  }
+
+  .content,
+  .buttons {
+    width: 100%;
+  }
+
+  .buttons {
+    margin: auto;
+    width: 100%;
+    margin-top: 2rem;
+    align-self: center;
+  }
+}
+
+/* Phones (Below 544px) */
+
+@media (max-width: 34em) {
+  .navbar {
+    padding: 2rem 3.2rem;
+  }
+  .metrics {
+    padding: 3.2rem;
+  }
+
+  .stats h1 {
+    font-size: 4rem;
+  }
+
+  .metrics-img {
+    background-color: blue;
+    width: 100%;
+  }
+
+  .metrics-img img {
+    width: 100%;
+  }
+
+  .mentors-container {
+    padding: 3.2rem;
+  }
+
+  .mentors-card-container {
+    grid-template-columns: 1fr;
+  }
+
+  .facilities-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .materials {
+    width: 100%;
+    padding: 3.2rem;
+  }
+
+  .materials-container h4 {
+    text-align: center;
+  }
+
+  .footer-nav {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 4.8rem;
+  }
+
+  .footer-rights {
+    flex-direction: column;
+    row-gap: 3.2rem;
+  }
+}
