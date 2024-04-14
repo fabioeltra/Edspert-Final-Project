@@ -25,10 +25,6 @@
 /* Tablet (Below 944px)*/
 
 @media (max-width: 59em) {
-  .navbar img {
-    width: 9.8rem;
-  }
-
   .nav-content .navlink,
   .nav-btn a:not(.btn-primary),
   .navbar .nav-content .chevron-links svg {
